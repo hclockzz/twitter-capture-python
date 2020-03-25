@@ -43,7 +43,7 @@ class TweetStreamListener(StreamListener):
         print(status)
 
 
-stream_name = 'twitter-data-stream'
+stream_name = ''  # fill the name of Kinesis data stream you created
 
 if __name__ == '__main__':
     # create kinesis client connection
